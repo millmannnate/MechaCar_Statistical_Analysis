@@ -13,5 +13,6 @@ I don't think that this model predicts the mpg effectively because the r-squared
 The variance passes for all manufacturing lots combined with a variance of 62.29 pound per square inch. For individual lots, lots 1 and 2 both pass, but lot 3 does not with a variance of 170.29 pounds per square inch.
 
 ## T-Tests on Suspension Coils
-
+The populations for lots 1 and 2 both had p-values above a significance level of 0.05, therefore the null hypothesis can't be rejected and we can deem the means similar to the population mean. The p-value for lot 3 was below the significance level at 0.04, therefore we can reject the null hypothesis and deem it not similar.
 ## Study Design: MechaCar vs Competition
+To compare MechaCar to its competitors, I would use variable such as: fuel efficiency, cost, safety rating, and drive terrain. The variable we would try to find would be customer ratings. The null hypothesis would be that fuel efficiency, cost, safety rating, and drive terrain have no effect on the customer's rating. The alternative hypothesis would be that those variable do have a significant effect on the customer's rating. I would like to try a multiple linear regression with those variable to see if there would be a formable equation that fits. We would need the data from the vehicle specifications listed, as well as the customer's ratings of each vehicle.
